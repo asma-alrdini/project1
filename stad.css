@@ -1,0 +1,35 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .stadium-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color:#025329;
+        }
+
+        .stadium-location {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .stadium-details {
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background-color: #025329;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #017a38;
+        }
+

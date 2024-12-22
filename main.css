@@ -1,0 +1,102 @@
+body{
+    font-family:Almarai ;
+    background-color: #f8f9fa;
+}
+
+.card .read-more:hover{
+    font-size: 14px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgba(50, 205, 50, 0.5);
+    
+}
+
+.card1:hover{
+    box-shadow: 8px 8px 8px 8px #F5F5F5;
+    transform: scale(1,2);
+}
+.card{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body-text{
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        transform: translate(-50%, -50%);
+            font-size: 2rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            z-index: 2;
+            font-family: 'Poppins', sans-serif;
+            
+}
+.card img{
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(117, 117, 117, 0.2); /* طبقة اللون الأخضر الشفاف */
+        z-index: 1; /* يجعل الطبقة فوق الصورة */
+    }
+
+
+
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0; /* الصورة تبقى تحت الطبقة */
+}
+
+.card-body {
+    position: relative;
+    z-index: 2; /* النص فوق الطبقة */
+    text-align: center;
+    color: #fff;
+}
+
+.card1{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+#image{
+  position: absolute;
+  top:calc(80% - 300px);
+  right: 60%;
+  z-index:999
+
+}
+
+
+#image img{
+    height: 600px;
+}
+

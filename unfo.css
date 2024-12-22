@@ -1,0 +1,16 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .form-section {
+            margin-top: 50px;
+        }
+        .btn-primary {
+            background-color: #025329;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #028f50;
+        }
+

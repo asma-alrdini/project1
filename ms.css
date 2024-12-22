@@ -1,0 +1,66 @@
+
+        body {
+            font-family: 'Almarai', sans-serif;
+            background-color: #f8f9fa;
+         
+        }
+
+        .match-card {
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .match-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            background-color: #025329;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 1.2rem;
+        }
+
+        .card-body {
+            text-align: center;
+            padding: 15px;
+        }
+
+        .team-logo {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin: 10px;
+        }
+
+        .vs-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .match-details {
+            font-size: 1rem;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .btn-view {
+            background-color: #025329;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .btn-view:hover {
+            background-color: #013d22;
+            color: #FFD700;
+        }
+    
